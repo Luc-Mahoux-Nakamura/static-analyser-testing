@@ -28,4 +28,10 @@ public class TestClass
             // Empty catch block
         }
     }
+    
+    // New method
+    public void NewMethod()
+    { 
+        Console.WriteLine("This is a new method");
+    }
 }

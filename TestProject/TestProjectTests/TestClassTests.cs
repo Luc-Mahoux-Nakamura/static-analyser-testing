@@ -27,4 +27,20 @@ public class TestClassTests
         // Assert
         // Add your assertions here
     }
+    
+    [Fact]
+    public void NewMethod_ShouldPrintMessage()
+    {
+        // Arrange
+        TestClass testClass = new TestClass();
+        var consoleOutput = new StringWriter();
+        Console.SetOut(consoleOutput);
+
+        // Act
+        testClass.NewMethod();
+
+        // Assert
+        var output = consoleOutput.ToString();
+        Assert.Contains("This is a new method", output);
+    }
 }

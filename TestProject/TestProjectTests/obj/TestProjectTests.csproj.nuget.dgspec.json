@@ -103,10 +103,6 @@
               "target": "Package",
               "version": "[17.5.0, )"
             },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.3, )"
-            },
             "NUnit.Analyzers": {
               "target": "Package",
               "version": "[3.6.1, )"
